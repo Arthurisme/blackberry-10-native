@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<trgtproject id="com.qnx.tools.ide.target.core.target">
+    <data>
+        <item id="com.qnx.tools.ide.target">
+            <last-device value="0xFFFF0499"/>
+            <qconnport value="8000"/>
+            <targettmpdir value="/var/tmp"/>
+            <qconnguid value="1997fba3-3d99-41d0-bbab-ca690d3900f1"/>
+            <conn-type value="SIMULATOR"/>
+            <qconn>
+                <core>
+                    <show_warning value="false"/>
+                </core>
+            </qconn>
+            <qconnostype value="nto"/>
+            <qconnhostname value="172.16.236.128"/>
+            <project>
+                <name value="sim_10_3_1_995"/>
+            </project>
+            <sim-id value="BlackBerry 10 Simulator 10.3.1.995"/>
+        </item>
+    </data>
+</trgtproject>
