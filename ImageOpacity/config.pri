@@ -35,7 +35,20 @@ simulator {
 }
 
 config_pri_assets {
-    OTHER_FILES += $$quote($$BASEDIR/assets/main.qml)
+    OTHER_FILES += \
+        $$quote($$BASEDIR/assets/images/10ppd/images/moon.png) \
+        $$quote($$BASEDIR/assets/images/10ppd/images/sun.png) \
+        $$quote($$BASEDIR/assets/images/12ppd/images/moon.png) \
+        $$quote($$BASEDIR/assets/images/12ppd/images/sun.png) \
+        $$quote($$BASEDIR/assets/images/day.jpg) \
+        $$quote($$BASEDIR/assets/images/mindw76h128du/images/day.jpg) \
+        $$quote($$BASEDIR/assets/images/mindw76h128du/images/night.jpg) \
+        $$quote($$BASEDIR/assets/images/mindw80h80du/images/day.jpg) \
+        $$quote($$BASEDIR/assets/images/mindw80h80du/images/night.jpg) \
+        $$quote($$BASEDIR/assets/images/moon.png) \
+        $$quote($$BASEDIR/assets/images/night.jpg) \
+        $$quote($$BASEDIR/assets/images/sun.png) \
+        $$quote($$BASEDIR/assets/main.qml)
 }
 
 config_pri_source_group1 {
@@ -59,7 +72,34 @@ lupdate_inclusion {
         $$quote($$BASEDIR/../src/*.cxx) \
         $$quote($$BASEDIR/../assets/*.qml) \
         $$quote($$BASEDIR/../assets/*.js) \
-        $$quote($$BASEDIR/../assets/*.qs)
+        $$quote($$BASEDIR/../assets/*.qs) \
+        $$quote($$BASEDIR/../assets/images/*.qml) \
+        $$quote($$BASEDIR/../assets/images/*.js) \
+        $$quote($$BASEDIR/../assets/images/*.qs) \
+        $$quote($$BASEDIR/../assets/images/10ppd/*.qml) \
+        $$quote($$BASEDIR/../assets/images/10ppd/*.js) \
+        $$quote($$BASEDIR/../assets/images/10ppd/*.qs) \
+        $$quote($$BASEDIR/../assets/images/10ppd/images/*.qml) \
+        $$quote($$BASEDIR/../assets/images/10ppd/images/*.js) \
+        $$quote($$BASEDIR/../assets/images/10ppd/images/*.qs) \
+        $$quote($$BASEDIR/../assets/images/12ppd/*.qml) \
+        $$quote($$BASEDIR/../assets/images/12ppd/*.js) \
+        $$quote($$BASEDIR/../assets/images/12ppd/*.qs) \
+        $$quote($$BASEDIR/../assets/images/12ppd/images/*.qml) \
+        $$quote($$BASEDIR/../assets/images/12ppd/images/*.js) \
+        $$quote($$BASEDIR/../assets/images/12ppd/images/*.qs) \
+        $$quote($$BASEDIR/../assets/images/mindw76h128du/*.qml) \
+        $$quote($$BASEDIR/../assets/images/mindw76h128du/*.js) \
+        $$quote($$BASEDIR/../assets/images/mindw76h128du/*.qs) \
+        $$quote($$BASEDIR/../assets/images/mindw76h128du/images/*.qml) \
+        $$quote($$BASEDIR/../assets/images/mindw76h128du/images/*.js) \
+        $$quote($$BASEDIR/../assets/images/mindw76h128du/images/*.qs) \
+        $$quote($$BASEDIR/../assets/images/mindw80h80du/*.qml) \
+        $$quote($$BASEDIR/../assets/images/mindw80h80du/*.js) \
+        $$quote($$BASEDIR/../assets/images/mindw80h80du/*.qs) \
+        $$quote($$BASEDIR/../assets/images/mindw80h80du/images/*.qml) \
+        $$quote($$BASEDIR/../assets/images/mindw80h80du/images/*.js) \
+        $$quote($$BASEDIR/../assets/images/mindw80h80du/images/*.qs)
 
     HEADERS += \
         $$quote($$BASEDIR/../src/*.h) \

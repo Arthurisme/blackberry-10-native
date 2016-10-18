@@ -18,10 +18,71 @@ import bb.cascades 1.4
 
 Page {
     Container {
-        Label {
-            // Localized text with the dynamic translation and locale updates support
-            text: qsTr("Hello World") + Retranslate.onLocaleOrLanguageChanged
-            textStyle.base: SystemDefaults.TextStyles.BigText
+        id: root
+        background: Color.create("#25282A")
+        layout: StackLayout {
+            orientation: LayoutOrientation.TopToBottom
+
         }
+        Container {
+            id:imageContainer
+            leftPadding: 10.0
+            rightPadding: 10.0
+            bottomPadding: 10.0
+            topPadding: 10.0
+            horizontalAlignment: HorizontalAlignment.Center
+            layout: DockLayout {
+
+            }
+            ImageView {
+                id:night
+                imageSource: "asset:///images/night.jpg"
+                horizontalAlignment: HorizontalAlignment.Center
+            
+            }
+            ImageView {
+                id:day
+                imageSource: "asset:///images/day.jpg"
+                horizontalAlignment: HorizontalAlignment.Center
+
+            }
+
+
+        }
+        
+        Container {
+            id:controlContainer
+            verticalAlignment: VerticalAlignment.Top
+            layout: StackLayout {
+                orientation: LayoutOrientation.LeftToRight
+
+            }
+            leftPadding: 10.0
+            rightPadding: 10.0
+            ImageView {
+                imageSource: "asset:///images/moon.png"
+                verticalAlignment: VerticalAlignment.Center
+
+            }
+
+            Slider {
+                layoutProperties: StackLayoutProperties {
+                    spaceQuota: 1.0
+
+                }
+                onValueChanged: {
+                    day.opacity = value
+                }
+
+            }
+            ImageView {
+                imageSource: "asset:///images/sun.png"
+                verticalAlignment: VerticalAlignment.Center
+                horizontalAlignment: HorizontalAlignment.Left
+
+            }
+
+        }
+
     }
 }
