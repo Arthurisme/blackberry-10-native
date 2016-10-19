@@ -1,0 +1,287 @@
+/*
+ * Copyright (c) 2011-2015 BlackBerry Limited.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+import bb.cascades 1.4
+
+Page {
+    titleBar: TitleBar {
+        title: "BMI Calculator"
+    }
+    Container {
+        id: mainContainer
+        layout: DockLayout {
+
+        }
+        ImageView {
+            imageSource: "asset:///images/Running.jpg"
+            verticalAlignment: VerticalAlignment.Center
+            horizontalAlignment: HorizontalAlignment.Fill
+        }
+        Container {
+            id: contentContainer
+            layout: StackLayout {
+
+            }
+            topPadding: 20.0
+            SegmentedControl {
+                id: mode
+                options: [
+                    Option {
+                        text: "Metric"
+                        value: 0
+                        selected: true
+                    },
+                    Option {
+                        text: "Imperial"
+                        value: 1
+
+                    }    
+                ]
+                verticalAlignment: VerticalAlignment.Center
+                horizontalAlignment: HorizontalAlignment.Center
+                onSelectedValueChanged: {
+                    if(mode.selectedValue == 0){
+                        weightLabel.text = "Weight in kg"
+                        imperialContainer.visible = false
+                        metricContainer.visible = true
+                    }
+                    if(mode.selectedValue == 1){
+                        weightLabel.text = "Weight in lbs"
+                        metricContainer.visible = false
+                        imperialContainer.visible = true
+                        
+                    }
+                    
+                }
+            }
+            Container {
+                id: weightContainer
+                layout: StackLayout {
+                    orientation: LayoutOrientation.LeftToRight
+
+                }
+                Label {
+                    id: weightLabel
+                    text: "Weight in kg\n"
+                    layoutProperties: StackLayoutProperties {
+                        spaceQuota: 1.0
+
+                    }
+
+                }
+                TextField {
+                    id: weight
+                    hintText: "Enter your weight"
+                    inputMode: TextFieldInputMode.NumbersAndPunctuation
+                    layoutProperties: StackLayoutProperties {
+                        spaceQuota: 2.0
+
+                    }
+
+                }
+
+            }
+            
+            Container {
+                id: heightContainer
+                layout: StackLayout {
+                    orientation: LayoutOrientation.LeftToRight
+                
+                }
+
+                topPadding: 10.0
+                Container {
+                    id: metricContainer
+
+                    layout: StackLayout {
+                        orientation: LayoutOrientation.LeftToRight
+
+                    }
+                    visible: true
+                    implicitLayoutAnimationsEnabled: true
+                    Label {
+                        text: "height"
+                        layoutProperties: StackLayoutProperties {
+                            spaceQuota: 1.0
+
+                        }
+
+                    }
+                    TextField {
+                        id: metricHeight
+                        hintText: "meters..."
+                        inputMode: TextFieldInputMode.NumbersAndPunctuation
+                        layoutProperties: StackLayoutProperties {
+                            spaceQuota: 2.0
+
+                        }
+
+                    }
+                }
+                
+                Container {
+                    id: imperialContainer
+                    
+                    layout: StackLayout {
+                        orientation: LayoutOrientation.LeftToRight
+                    
+                    }
+                    visible: false
+                    implicitLayoutAnimationsEnabled: false
+                    Label {
+                        text: "height"
+                        layoutProperties: StackLayoutProperties {
+                            spaceQuota: 1.0
+                        
+                        }
+                    
+                    }
+                    DropDown {
+                        id: feet
+                        layoutProperties: StackLayoutProperties {
+                            spaceQuota: 2.0
+                        
+                        }
+                        Option {
+                            text:"4'"
+                            value: 4
+                        }
+                        Option {
+                            text:"5'"
+                            value: 5
+                        }
+                        Option {
+                            text:"6'"
+                            value: 6
+                        }
+                        Option {
+                            text:"7'"
+                            value: 7
+                        }
+                        Option {
+                            text:"8'"
+                            value: 8
+                        }
+
+                    }
+                    DropDown {
+                        id: inches
+                        layoutProperties: StackLayoutProperties {
+                            spaceQuota: 2.0
+                        
+                        }
+                    
+                        Option {
+                            text:"1\""
+                            value: 1
+                        }
+                        Option {
+                            text:"2\""
+                            value: 2
+                        }       
+                        Option {
+                            text:"3\""
+                            value: 3
+                        }       
+                        Option {
+                            text:"4\""
+                            value: 4
+                        }
+                    }
+
+                }
+            
+            }
+            
+            Container {
+                id: buttonContainer
+                layout: StackLayout {
+                    orientation: LayoutOrientation.LeftToRight
+                
+                }
+                topPadding: 10.0
+                Button {
+                    id: clearButton
+                    text: "Clear"
+                    layoutProperties: StackLayoutProperties {
+                        spaceQuota: 1.0
+
+                    }
+                    onClicked: {
+                        weight.text = ""
+                        if(mode.selectedValue == 0){
+                        metricHeight = ""
+                    }
+                    }
+
+                }
+                Button {
+                    id: bmiButton
+                    text: "BMI"
+                    layoutProperties: StackLayoutProperties {
+                        spaceQuota: 1.0
+
+                    }
+
+                }
+            
+            }
+            
+            Container {
+                id: tttContainer
+                layout: DockLayout {
+                
+                }
+                
+                verticalAlignment: VerticalAlignment.Fill
+                horizontalAlignment: HorizontalAlignment.Fill
+                layoutProperties: StackLayoutProperties {
+                    spaceQuota: 1.0
+
+                }
+                Container {
+                    id: tt2Container
+                    layout: StackLayout {
+                    
+                    }
+                    verticalAlignment: VerticalAlignment.Center
+                    horizontalAlignment: HorizontalAlignment.Center
+                    Label {
+                        id: bmi
+                        text: "25.1"
+                        textFit.mode: LabelTextFitMode.Default
+                        textFit.minFontSizeValue: 63.0
+                        textFit.maxFontSizeValue: 75.0
+
+                    }
+                    Label {
+                        id: bmiStatus
+                        text: "Overweight"
+                        textStyle.fontWeight: FontWeight.Default
+                        verticalAlignment: VerticalAlignment.Center
+                        horizontalAlignment: HorizontalAlignment.Center
+
+                    }
+                
+                }
+            
+            }
+
+        }
+
+    }
+
+}

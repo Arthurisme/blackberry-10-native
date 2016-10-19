@@ -1,0 +1,1 @@
+include (../BMICalculator.pro)
