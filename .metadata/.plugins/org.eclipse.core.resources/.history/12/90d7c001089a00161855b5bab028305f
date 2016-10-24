@@ -1,0 +1,20 @@
+/*
+ * CircularSlider.cpp
+ *
+ *  Created on: Oct 24, 2016
+ *      Author: Arthur
+ */
+
+#include "CircularSlider.hpp"
+
+CircularSlider::CircularSlider()
+{
+    // TODO Auto-generated constructor stub
+
+}
+
+CircularSlider::~CircularSlider()
+{
+    // TODO Auto-generated destructor stub
+}
+

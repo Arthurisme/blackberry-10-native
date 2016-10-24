@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CustomControl/src/CircularSlider.h&apos; to &apos;CircularSlider.hpp&apos;" description="Rename resource &apos;CircularSlider.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/CircularSlider.h" name="CircularSlider.hpp" stamp="1477326191459" updateReferences="true"/>
+</session>

@@ -1,0 +1,7 @@
+APP_NAME = CustomControl
+
+CONFIG += qt warn_on cascades10
+
+QT += core 
+
+include(config.pri)

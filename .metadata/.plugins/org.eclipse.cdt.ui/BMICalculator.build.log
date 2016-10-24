@@ -1,4 +1,4 @@
-15:05:18 **** Incremental Build of configuration Simulator-Debug for project BMICalculator ****
+12:30:54 **** Incremental Build of configuration Simulator-Debug for project BMICalculator ****
 make -j3 Simulator-Debug 
 make -C .//translations -f Makefile update
 make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
@@ -20,5 +20,5 @@ make[2]: Nothing to be done for 'first'.
 make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
 make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
 
-15:05:19 Build Finished (took 240ms)
+12:30:55 Build Finished (took 227ms)
 

@@ -1,0 +1,18 @@
+/*
+ * CircularSlider.h
+ *
+ *  Created on: Oct 24, 2016
+ *      Author: Arthur
+ */
+
+#ifndef CIRCULARSLIDER_H_
+#define CIRCULARSLIDER_H_
+
+class CircularSlider
+{
+public:
+    CircularSlider();
+    virtual ~CircularSlider();
+};
+
+#endif /* CIRCULARSLIDER_H_ */

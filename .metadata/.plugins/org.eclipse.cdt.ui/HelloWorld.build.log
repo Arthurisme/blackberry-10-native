@@ -1,11 +1,10 @@
-13:27:17 **** Incremental Build of configuration Simulator-Debug for project HelloWorld ****
+12:31:00 **** Incremental Build of configuration Simulator-Debug for project HelloWorld ****
 make -j3 Simulator-Debug 
 make -C .//translations -f Makefile update
 make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
 /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate HelloWorld.pro
 Updating 'HelloWorld.ts'...
     Found 0 source text(s) (0 new and 0 already existing)
-    Kept 1 obsolete entries
 make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
 make -C .//translations -f Makefile release
 make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
@@ -21,5 +20,5 @@ make[2]: Nothing to be done for 'first'.
 make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
 make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
 
-13:27:19 Build Finished (took 1s.562ms)
+12:31:00 Build Finished (took 224ms)
 

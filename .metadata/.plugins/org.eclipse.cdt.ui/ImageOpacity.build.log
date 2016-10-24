@@ -1,4 +1,4 @@
-14:33:04 **** Incremental Build of configuration Simulator-Debug for project ImageOpacity ****
+12:31:00 **** Incremental Build of configuration Simulator-Debug for project ImageOpacity ****
 make -j3 Simulator-Debug 
 make -C .//translations -f Makefile update
 make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
@@ -20,5 +20,5 @@ make[2]: Nothing to be done for 'first'.
 make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
 make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
 
-14:33:04 Build Finished (took 230ms)
+12:31:01 Build Finished (took 226ms)
 

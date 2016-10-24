@@ -336,3 +336,786 @@ make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-
 make[2]: Nothing to be done for 'first'.
 make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
 make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+15:54:38 **** Incremental Build of configuration Simulator-Debug for project BMICalculator ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate BMICalculator.pro
+Updating 'BMICalculator.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease BMICalculator.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations/BMICalculator.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make[2]: Nothing to be done for 'first'.
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+15:57:25 **** Incremental Build of configuration Simulator-Debug for project BMICalculator ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate BMICalculator.pro
+Updating 'BMICalculator.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease BMICalculator.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations/BMICalculator.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make[2]: Nothing to be done for 'first'.
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+10:18:27 **** Build of configuration Device-Debug for project CustomControl ****
+make -j3 Device-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate CustomControl.pro
+cd arm && /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/qmake -spec blackberry-armv7le-qcc ../CustomControl.pro CONFIG+=debug_and_release CONFIG+=device
+Updating 'CustomControl.ts'...
+    Found 1 source text(s) (1 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease CustomControl.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations/CustomControl.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 1 untranslated source text(s)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C ./arm -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/applicationui.hpp -o o.le-v7-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntoarmv7le -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -x c++-header -c ../precompiled.h -o o.le-v7-g/.obj/CustomControl.gch/c++
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/main.o ../src/main.cpp
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/moc_applicationui.o o.le-v7-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntoarmv7le -lang-c++ -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/usr/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/usr/lib/qt4/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/usr/lib/qt4/lib -o o.le-v7-g/CustomControl o.le-v7-g/.obj/applicationui.o o.le-v7-g/.obj/main.o o.le-v7-g/.obj/moc_applicationui.o    -L/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/usr/lib/bb1 -L/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/usr/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/usr/lib/qt4/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6//usr/lib/qt4/lib -lbbcascades -lQtDeclarative -lQtScript -lQtSvg -lQtSql -lsqlite3 -lz -lQtXmlPatterns -lQtGui -lQtNetwork -lsocket -lQtCore -lm -lbps 
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+12:15:06 **** Clean-only build of configuration Simulator-Debug for project BMICalculator ****
+make -j3 clean 
+rm -rf arm arm-p x86
+rm -f .//translations/*.qm
+12:15:07 **** Clean-only build of configuration Device-Debug for project CustomControl ****
+make -j3 clean 
+rm -rf arm arm-p x86
+rm -f .//translations/*.qm
+12:15:07 **** Clean-only build of configuration Simulator-Debug for project HelloWorld ****
+make -j3 clean 
+rm -rf arm arm-p x86
+rm -f .//translations/*.qm
+12:15:07 **** Clean-only build of configuration Simulator-Debug for project ImageOpacity ****
+make -j3 clean 
+rm -rf arm arm-p x86
+rm -f .//translations/*.qm
+12:15:08 **** Build of configuration Simulator-Debug for project BMICalculator ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+cd x86 && /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/qmake -spec blackberry-x86-qcc ../BMICalculator.pro  CONFIG+=debug_and_release CONFIG+=simulator
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate BMICalculator.pro
+Updating 'BMICalculator.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease BMICalculator.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations/BMICalculator.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../BMICalculator -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/applicationui.hpp -o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../BMICalculator -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -x c++-header -c ../precompiled.h -o o-g/.obj/BMICalculator.gch/c++
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/BMICalculator -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../BMICalculator -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/BMICalculator -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../BMICalculator -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/main.o ../src/main.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/BMICalculator -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../BMICalculator -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/moc_applicationui.o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -lang-c++ -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -o o-g/BMICalculator o-g/.obj/applicationui.o o-g/.obj/main.o o-g/.obj/moc_applicationui.o    -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/bb1 -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6//usr/lib/qt4/lib -lbbcascades -lQtDeclarative -lQtScript -lQtSvg -lQtSql -lsqlite3 -lz -lQtXmlPatterns -lQtGui -lQtNetwork -lsocket -lQtCore -lm -lbps 
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+12:15:16 **** Build of configuration Device-Debug for project CustomControl ****
+make -j3 Device-Debug 
+make -C .//translations -f Makefile update
+cd arm && /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/qmake -spec blackberry-armv7le-qcc ../CustomControl.pro CONFIG+=debug_and_release CONFIG+=device
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate CustomControl.pro
+Updating 'CustomControl.ts'...
+    Found 1 source text(s) (0 new and 1 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease CustomControl.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations/CustomControl.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 1 untranslated source text(s)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C ./arm -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/CircularSlider.h -o o.le-v7-g/.moc/moc_CircularSlider.cpp
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/applicationui.hpp -o o.le-v7-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntoarmv7le -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -x c++-header -c ../precompiled.h -o o.le-v7-g/.obj/CustomControl.gch/c++
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/CircularSlider.o ../src/CircularSlider.cpp
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/main.o ../src/main.cpp
+In file included from ../src/CircularSlider.cpp:8:0:
+../src/CircularSlider.h:23:1: error: expected class-name before '{' token
+../src/CircularSlider.h:41:35: error: 'bb::cascades::TrackpadEvent' has not been declared
+../src/CircularSlider.h:50:5: error: 'TrackpadHandler' in namespace 'bb::cascades' does not name a type
+../src/CircularSlider.h:60:5: error: 'Image' in namespace 'bb::cascades' does not name a type
+../src/CircularSlider.h:61:5: error: 'Image' in namespace 'bb::cascades' does not name a type
+../src/CircularSlider.h:64:5: error: 'ImplicitAnimationController' in namespace 'bb::cascades' does not name a type
+../src/CircularSlider.h:66:35: error: field 'm_pointsOnCircumference' has incomplete type
+../src/CircularSlider.cpp: In constructor 'CircularSlider::CircularSlider(bb::cascades::Container*)':
+../src/CircularSlider.cpp:26:6: error: class 'CircularSlider' does not have any field named 'CustomControl'
+../src/CircularSlider.cpp:49:5: error: 'm_handleImplicitAnimationController' was not declared in this scope
+../src/CircularSlider.cpp:50:13: error: 'ImplicitAnimationController' has not been declared
+../src/CircularSlider.cpp:54:5: error: 'm_handleOn' was not declared in this scope
+../src/CircularSlider.cpp:55:5: error: 'm_handleOff' was not declared in this scope
+../src/CircularSlider.cpp:60:16: error: 'm_handeOff' was not declared in this scope
+../src/CircularSlider.cpp:71:28: error: 'setRoot' was not declared in this scope
+../src/CircularSlider.cpp:75:5: error: 'ok' was not declared in this scope
+../src/CircularSlider.cpp:75:97: error: 'connect' was not declared in this scope
+../src/CircularSlider.cpp:79:28: error: 'm_trackpad' was not declared in this scope
+../src/CircularSlider.cpp:88:1: error: expected ';' before '}' token
+../src/CircularSlider.cpp:88:1: warning: statement has no effect [-Wunused-value]
+../src/CircularSlider.cpp: At global scope:
+../src/CircularSlider.cpp:90:33: error: definition of implicitly-declared 'CircularSlider::~CircularSlider()'
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/moc_CircularSlider.o o.le-v7-g/.moc/moc_CircularSlider.cpp
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/moc_applicationui.o o.le-v7-g/.moc/moc_applicationui.cpp
+In file included from o.le-v7-g/.moc/moc_CircularSlider.cpp:9:0:
+o.le-v7-g/.moc/../../../src/CircularSlider.h:23:1: error: expected class-name before '{' token
+o.le-v7-g/.moc/../../../src/CircularSlider.h:41:35: error: 'bb::cascades::TrackpadEvent' has not been declared
+o.le-v7-g/.moc/../../../src/CircularSlider.h:50:5: error: 'TrackpadHandler' in namespace 'bb::cascades' does not name a type
+o.le-v7-g/.moc/../../../src/CircularSlider.h:60:5: error: 'Image' in namespace 'bb::cascades' does not name a type
+o.le-v7-g/.moc/../../../src/CircularSlider.h:61:5: error: 'Image' in namespace 'bb::cascades' does not name a type
+o.le-v7-g/.moc/../../../src/CircularSlider.h:64:5: error: 'ImplicitAnimationController' in namespace 'bb::cascades' does not name a type
+o.le-v7-g/.moc/../../../src/CircularSlider.h:66:35: error: field 'm_pointsOnCircumference' has incomplete type
+o.le-v7-g/.moc/moc_CircularSlider.cpp: In static member function 'static void CircularSlider::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)':
+o.le-v7-g/.moc/moc_CircularSlider.cpp:64:62: error: invalid static_cast from type 'QObject*' to type 'CircularSlider*'
+o.le-v7-g/.moc/moc_CircularSlider.cpp:70:52: error: expected type-specifier
+o.le-v7-g/.moc/moc_CircularSlider.cpp:70:52: error: expected '>'
+o.le-v7-g/.moc/moc_CircularSlider.cpp:70:52: error: expected '('
+o.le-v7-g/.moc/moc_CircularSlider.cpp:70:52: error: 'TrackpadEvent' is not a member of 'bb::cascades'
+o.le-v7-g/.moc/moc_CircularSlider.cpp:70:82: error: expected primary-expression before ')' token
+o.le-v7-g/.moc/moc_CircularSlider.cpp: At global scope:
+o.le-v7-g/.moc/moc_CircularSlider.cpp:82:22: error: 'bb::cascades::CustomControl' has not been declared
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobject.h: In member function 'virtual const QMetaObject* CircularSlider::metaObject() const':
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobject.h:320:33: error: 'QScopedPointer<QObjectData> QObject::d_ptr' is protected
+o.le-v7-g/.moc/moc_CircularSlider.cpp:92:21: error: within this context
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobject.h:320:33: error: invalid use of non-static data member 'QObject::d_ptr'
+o.le-v7-g/.moc/moc_CircularSlider.cpp:92:21: error: from this location
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobject.h:320:33: error: 'QScopedPointer<QObjectData> QObject::d_ptr' is protected
+o.le-v7-g/.moc/moc_CircularSlider.cpp:92:50: error: within this context
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobject.h:320:33: error: invalid use of non-static data member 'QObject::d_ptr'
+o.le-v7-g/.moc/moc_CircularSlider.cpp:92:50: error: from this location
+o.le-v7-g/.moc/moc_CircularSlider.cpp: In member function 'virtual void* CircularSlider::qt_metacast(const char*)':
+o.le-v7-g/.moc/moc_CircularSlider.cpp:100:13: error: 'CustomControl' in namespace 'bb::cascades' does not name a type
+o.le-v7-g/.moc/moc_CircularSlider.cpp:101:12: error: 'QMocSuperClass' has not been declared
+o.le-v7-g/.moc/moc_CircularSlider.cpp: In member function 'virtual int CircularSlider::qt_metacall(QMetaObject::Call, int, void**)':
+o.le-v7-g/.moc/moc_CircularSlider.cpp:106:13: error: 'CustomControl' in namespace 'bb::cascades' does not name a type
+o.le-v7-g/.moc/moc_CircularSlider.cpp:107:11: error: 'QMocSuperClass' has not been declared
+o.le-v7-g/.moc/moc_CircularSlider.cpp:112:49: error: no matching function for call to 'CircularSlider::qt_static_metacall(CircularSlider* const, QMetaObject::Call&, int&, void**&)'
+o.le-v7-g/.moc/moc_CircularSlider.cpp:112:49: note: candidate is:
+o.le-v7-g/.moc/moc_CircularSlider.cpp:60:6: note: static void CircularSlider::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)
+o.le-v7-g/.moc/moc_CircularSlider.cpp:60:6: note:   no known conversion for argument 1 from 'CircularSlider* const' to 'QObject*'
+o.le-v7-g/.moc/moc_CircularSlider.cpp: In member function 'void CircularSlider::valueChanged(float)':
+o.le-v7-g/.moc/moc_CircularSlider.cpp:149:57: error: no matching function for call to 'QMetaObject::activate(CircularSlider* const, const QMetaObject*, int, void* [2])'
+o.le-v7-g/.moc/moc_CircularSlider.cpp:149:57: note: candidates are:
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobjectdefs.h:363:17: note: static void QMetaObject::activate(QObject*, int, void**)
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobjectdefs.h:363:17: note:   candidate expects 3 arguments, 4 provided
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobjectdefs.h:364:17: note: static void QMetaObject::activate(QObject*, int, int, void**)
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobjectdefs.h:364:17: note:   no known conversion for argument 1 from 'CircularSlider* const' to 'QObject*'
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobjectdefs.h:365:17: note: static void QMetaObject::activate(QObject*, const QMetaObject*, int, void**)
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobjectdefs.h:365:17: note:   no known conversion for argument 1 from 'CircularSlider* const' to 'QObject*'
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobjectdefs.h:366:17: note: static void QMetaObject::activate(QObject*, const QMetaObject*, int, int, void**)
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore/qobjectdefs.h:366:17: note:   candidate expects 5 arguments, 4 provided
+o.le-v7-g/.moc/moc_CircularSlider.cpp: In member function 'virtual void* CircularSlider::qt_metacast(const char*)':
+o.le-v7-g/.moc/moc_CircularSlider.cpp:102:1: warning: control reaches end of non-void function [-Wreturn-type]
+o.le-v7-g/.moc/moc_CircularSlider.cpp: In member function 'virtual const QMetaObject* CircularSlider::metaObject() const':
+o.le-v7-g/.moc/moc_CircularSlider.cpp:93:1: warning: control reaches end of non-void function [-Wreturn-type]
+cc: /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/lib/gcc/arm-unknown-nto-qnx8.0.0eabi/4.6.3/cc1plus error 1
+Makefile.Debug:190: recipe for target 'o.le-v7-g/.obj/moc_CircularSlider.o' failed
+make[2]: *** [o.le-v7-g/.obj/moc_CircularSlider.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+cc: /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/lib/gcc/arm-unknown-nto-qnx8.0.0eabi/4.6.3/cc1plus error 1
+Makefile.Debug:179: recipe for target 'o.le-v7-g/.obj/CircularSlider.o' failed
+make[2]: *** [o.le-v7-g/.obj/CircularSlider.o] Error 1
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+Makefile:50: recipe for target 'debug' failed
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+mk/cs-base.mk:31: recipe for target 'Device-Debug' failed
+make[1]: *** [debug] Error 2
+make: *** [Device-Debug] Error 2
+12:15:19 **** Build of configuration Simulator-Debug for project HelloWorld ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+cd x86 && /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/qmake -spec blackberry-x86-qcc ../HelloWorld.pro  CONFIG+=debug_and_release CONFIG+=simulator
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate HelloWorld.pro
+Updating 'HelloWorld.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease HelloWorld.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations/HelloWorld.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../HelloWorld -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/applicationui.hpp -o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../HelloWorld -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -x c++-header -c ../precompiled.h -o o-g/.obj/HelloWorld.gch/c++
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/HelloWorld -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../HelloWorld -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/HelloWorld -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../HelloWorld -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/main.o ../src/main.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/HelloWorld -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../HelloWorld -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/moc_applicationui.o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -lang-c++ -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -o o-g/HelloWorld o-g/.obj/applicationui.o o-g/.obj/main.o o-g/.obj/moc_applicationui.o    -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/bb1 -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6//usr/lib/qt4/lib -lbbcascades -lQtDeclarative -lQtScript -lQtSvg -lQtSql -lsqlite3 -lz -lQtXmlPatterns -lQtGui -lQtNetwork -lsocket -lQtCore -lm -lbps 
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+12:15:22 **** Build of configuration Simulator-Debug for project ImageOpacity ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+cd x86 && /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/qmake -spec blackberry-x86-qcc ../ImageOpacity.pro  CONFIG+=debug_and_release CONFIG+=simulator
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate ImageOpacity.pro
+Updating 'ImageOpacity.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease ImageOpacity.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations/ImageOpacity.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../ImageOpacity -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/applicationui.hpp -o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../ImageOpacity -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -x c++-header -c ../precompiled.h -o o-g/.obj/ImageOpacity.gch/c++
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/ImageOpacity -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../ImageOpacity -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/ImageOpacity -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../ImageOpacity -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/main.o ../src/main.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/ImageOpacity -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../ImageOpacity -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/moc_applicationui.o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -lang-c++ -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -o o-g/ImageOpacity o-g/.obj/applicationui.o o-g/.obj/main.o o-g/.obj/moc_applicationui.o    -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/bb1 -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6//usr/lib/qt4/lib -lbbcascades -lQtDeclarative -lQtScript -lQtSvg -lQtSql -lsqlite3 -lz -lQtXmlPatterns -lQtGui -lQtNetwork -lsocket -lQtCore -lm -lbps 
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+12:18:59 **** Clean-only build of configuration Simulator-Debug for project BMICalculator ****
+make -j3 clean 
+rm -rf arm arm-p x86
+rm -f .//translations/*.qm
+12:19:00 **** Clean-only build of configuration Device-Debug for project CustomControl ****
+make -j3 clean 
+rm -rf arm arm-p x86
+rm -f .//translations/*.qm
+12:19:00 **** Clean-only build of configuration Simulator-Debug for project HelloWorld ****
+make -j3 clean 
+rm -rf arm arm-p x86
+rm -f .//translations/*.qm
+12:19:00 **** Clean-only build of configuration Simulator-Debug for project ImageOpacity ****
+make -j3 clean 
+rm -rf arm arm-p x86
+rm -f .//translations/*.qm
+12:19:00 **** Build of configuration Simulator-Debug for project BMICalculator ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+cd x86 && /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/qmake -spec blackberry-x86-qcc ../BMICalculator.pro  CONFIG+=debug_and_release CONFIG+=simulator
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate BMICalculator.pro
+Updating 'BMICalculator.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease BMICalculator.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations/BMICalculator.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../BMICalculator -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/applicationui.hpp -o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../BMICalculator -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -x c++-header -c ../precompiled.h -o o-g/.obj/BMICalculator.gch/c++
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/BMICalculator -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../BMICalculator -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/BMICalculator -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../BMICalculator -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/main.o ../src/main.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/BMICalculator -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../BMICalculator -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/moc_applicationui.o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -lang-c++ -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -o o-g/BMICalculator o-g/.obj/applicationui.o o-g/.obj/main.o o-g/.obj/moc_applicationui.o    -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/bb1 -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6//usr/lib/qt4/lib -lbbcascades -lQtDeclarative -lQtScript -lQtSvg -lQtSql -lsqlite3 -lz -lQtXmlPatterns -lQtGui -lQtNetwork -lsocket -lQtCore -lm -lbps 
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+12:19:03 **** Build of configuration Device-Debug for project CustomControl ****
+make -j3 Device-Debug 
+make -C .//translations -f Makefile update
+cd arm && /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/qmake -spec blackberry-armv7le-qcc ../CustomControl.pro CONFIG+=debug_and_release CONFIG+=device
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate CustomControl.pro
+Updating 'CustomControl.ts'...
+    Found 1 source text(s) (0 new and 1 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease CustomControl.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations/CustomControl.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 1 untranslated source text(s)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C ./arm -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/CircularSlider.h -o o.le-v7-g/.moc/moc_CircularSlider.cpp
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/applicationui.hpp -o o.le-v7-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntoarmv7le -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -x c++-header -c ../precompiled.h -o o.le-v7-g/.obj/CustomControl.gch/c++
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/CircularSlider.o ../src/CircularSlider.cpp
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/main.o ../src/main.cpp
+In file included from ../src/CircularSlider.cpp:8:0:
+../src/CircularSlider.h:23:1: error: expected class-name before '{' token
+../src/CircularSlider.h:41:35: error: 'bb::cascades::TrackpadEvent' has not been declared
+../src/CircularSlider.h:50:5: error: 'TrackpadHandler' in namespace 'bb::cascades' does not name a type
+../src/CircularSlider.h:60:5: error: 'Image' in namespace 'bb::cascades' does not name a type
+../src/CircularSlider.h:61:5: error: 'Image' in namespace 'bb::cascades' does not name a type
+../src/CircularSlider.h:64:5: error: 'ImplicitAnimationController' in namespace 'bb::cascades' does not name a type
+../src/CircularSlider.h:66:35: error: field 'm_pointsOnCircumference' has incomplete type
+../src/CircularSlider.cpp: In constructor 'CircularSlider::CircularSlider(bb::cascades::Container*)':
+../src/CircularSlider.cpp:26:6: error: class 'CircularSlider' does not have any field named 'CustomControl'
+../src/CircularSlider.cpp:49:5: error: 'm_handleImplicitAnimationController' was not declared in this scope
+../src/CircularSlider.cpp:50:13: error: 'ImplicitAnimationController' has not been declared
+../src/CircularSlider.cpp:54:5: error: 'm_handleOn' was not declared in this scope
+../src/CircularSlider.cpp:55:5: error: 'm_handleOff' was not declared in this scope
+../src/CircularSlider.cpp:60:16: error: 'm_handeOff' was not declared in this scope
+../src/CircularSlider.cpp:71:28: error: 'setRoot' was not declared in this scope
+../src/CircularSlider.cpp:75:5: error: 'ok' was not declared in this scope
+../src/CircularSlider.cpp:75:97: error: 'connect' was not declared in this scope
+../src/CircularSlider.cpp:79:28: error: 'm_trackpad' was not declared in this scope
+../src/CircularSlider.cpp:88:1: error: expected ';' before '}' token
+../src/CircularSlider.cpp:88:1: warning: statement has no effect [-Wunused-value]
+../src/CircularSlider.cpp: At global scope:
+../src/CircularSlider.cpp:90:33: error: definition of implicitly-declared 'CircularSlider::~CircularSlider()'
+cc: /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/lib/gcc/arm-unknown-nto-qnx8.0.0eabi/4.6.3/cc1plus error 1
+Makefile.Debug:179: recipe for target 'o.le-v7-g/.obj/CircularSlider.o' failed
+make[2]: *** [o.le-v7-g/.obj/CircularSlider.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [debug] Error 2
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+make: *** [Device-Debug] Error 2
+Makefile:50: recipe for target 'debug' failed
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+mk/cs-base.mk:31: recipe for target 'Device-Debug' failed
+12:19:05 **** Build of configuration Simulator-Debug for project HelloWorld ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+cd x86 && /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/qmake -spec blackberry-x86-qcc ../HelloWorld.pro  CONFIG+=debug_and_release CONFIG+=simulator
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate HelloWorld.pro
+Updating 'HelloWorld.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease HelloWorld.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations/HelloWorld.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../HelloWorld -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/applicationui.hpp -o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../HelloWorld -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -x c++-header -c ../precompiled.h -o o-g/.obj/HelloWorld.gch/c++
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/HelloWorld -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../HelloWorld -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/HelloWorld -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../HelloWorld -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/main.o ../src/main.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/HelloWorld -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../HelloWorld -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/moc_applicationui.o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -lang-c++ -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -o o-g/HelloWorld o-g/.obj/applicationui.o o-g/.obj/main.o o-g/.obj/moc_applicationui.o    -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/bb1 -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6//usr/lib/qt4/lib -lbbcascades -lQtDeclarative -lQtScript -lQtSvg -lQtSql -lsqlite3 -lz -lQtXmlPatterns -lQtGui -lQtNetwork -lsocket -lQtCore -lm -lbps 
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+12:19:08 **** Build of configuration Simulator-Debug for project ImageOpacity ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+cd x86 && /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/qmake -spec blackberry-x86-qcc ../ImageOpacity.pro  CONFIG+=debug_and_release CONFIG+=simulator
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate ImageOpacity.pro
+Updating 'ImageOpacity.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease ImageOpacity.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations/ImageOpacity.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../ImageOpacity -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/applicationui.hpp -o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../ImageOpacity -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -x c++-header -c ../precompiled.h -o o-g/.obj/ImageOpacity.gch/c++
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/ImageOpacity -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../ImageOpacity -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/ImageOpacity -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../ImageOpacity -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/main.o ../src/main.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/ImageOpacity -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../ImageOpacity -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/moc_applicationui.o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -lang-c++ -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -o o-g/ImageOpacity o-g/.obj/applicationui.o o-g/.obj/main.o o-g/.obj/moc_applicationui.o    -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/bb1 -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6//usr/lib/qt4/lib -lbbcascades -lQtDeclarative -lQtScript -lQtSvg -lQtSql -lsqlite3 -lz -lQtXmlPatterns -lQtGui -lQtNetwork -lsocket -lQtCore -lm -lbps 
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+12:25:10 **** Clean-only build of configuration Device-Debug for project CustomControl ****
+make -j3 clean 
+rm -rf arm arm-p x86
+rm -f .//translations/*.qm
+12:25:10 **** Incremental Build of configuration Simulator-Debug for project BMICalculator ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate BMICalculator.pro
+Updating 'BMICalculator.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease BMICalculator.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations/BMICalculator.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make[2]: Nothing to be done for 'first'.
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+12:25:10 **** Build of configuration Device-Debug for project CustomControl ****
+make -j3 Device-Debug 
+make -C .//translations -f Makefile update
+cd arm && /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/qmake -spec blackberry-armv7le-qcc ../CustomControl.pro CONFIG+=debug_and_release CONFIG+=device
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate CustomControl.pro
+Updating 'CustomControl.ts'...
+    Found 1 source text(s) (0 new and 1 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease CustomControl.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations/CustomControl.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 1 untranslated source text(s)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C ./arm -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/CircularSlider.hpp -o o.le-v7-g/.moc/moc_CircularSlider.cpp
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/applicationui.hpp -o o.le-v7-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntoarmv7le -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -x c++-header -c ../precompiled.h -o o.le-v7-g/.obj/CustomControl.gch/c++
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/CircularSlider.o ../src/CircularSlider.cpp
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/main.o ../src/main.cpp
+In file included from ../src/CircularSlider.cpp:8:0:
+../src/CircularSlider.hpp:23:1: error: expected class-name before '{' token
+../src/CircularSlider.hpp:41:35: error: 'bb::cascades::TrackpadEvent' has not been declared
+../src/CircularSlider.hpp:50:5: error: 'TrackpadHandler' in namespace 'bb::cascades' does not name a type
+../src/CircularSlider.hpp:60:5: error: 'Image' in namespace 'bb::cascades' does not name a type
+../src/CircularSlider.hpp:61:5: error: 'Image' in namespace 'bb::cascades' does not name a type
+../src/CircularSlider.hpp:64:5: error: 'ImplicitAnimationController' in namespace 'bb::cascades' does not name a type
+../src/CircularSlider.hpp:66:35: error: field 'm_pointsOnCircumference' has incomplete type
+../src/CircularSlider.cpp: In constructor 'CircularSlider::CircularSlider(bb::cascades::Container*)':
+../src/CircularSlider.cpp:30:6: error: class 'CircularSlider' does not have any field named 'CustomControl'
+../src/CircularSlider.cpp:53:5: error: 'm_handleImplicitAnimationController' was not declared in this scope
+../src/CircularSlider.cpp:54:13: error: 'ImplicitAnimationController' has not been declared
+../src/CircularSlider.cpp:58:5: error: 'm_handleOn' was not declared in this scope
+../src/CircularSlider.cpp:59:5: error: 'm_handleOff' was not declared in this scope
+../src/CircularSlider.cpp:64:16: error: 'm_handeOff' was not declared in this scope
+../src/CircularSlider.cpp:75:28: error: 'setRoot' was not declared in this scope
+../src/CircularSlider.cpp:79:5: error: 'ok' was not declared in this scope
+../src/CircularSlider.cpp:79:97: error: 'connect' was not declared in this scope
+../src/CircularSlider.cpp:83:28: error: 'm_trackpad' was not declared in this scope
+../src/CircularSlider.cpp:92:1: error: expected ';' before '}' token
+../src/CircularSlider.cpp:92:1: warning: statement has no effect [-Wunused-value]
+../src/CircularSlider.cpp: At global scope:
+../src/CircularSlider.cpp:94:33: error: definition of implicitly-declared 'CircularSlider::~CircularSlider()'
+Makefile.Debug:179: recipe for target 'o.le-v7-g/.obj/CircularSlider.o' failed
+cc: /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/lib/gcc/arm-unknown-nto-qnx8.0.0eabi/4.6.3/cc1plus error 1
+make[2]: *** [o.le-v7-g/.obj/CircularSlider.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+make[1]: *** [debug] Error 2
+Makefile:50: recipe for target 'debug' failed
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+make: *** [Device-Debug] Error 2
+mk/cs-base.mk:31: recipe for target 'Device-Debug' failed
+12:25:13 **** Incremental Build of configuration Simulator-Debug for project HelloWorld ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate HelloWorld.pro
+Updating 'HelloWorld.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease HelloWorld.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations/HelloWorld.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+make[2]: Nothing to be done for 'first'.
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+12:25:13 **** Incremental Build of configuration Simulator-Debug for project ImageOpacity ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate ImageOpacity.pro
+Updating 'ImageOpacity.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease ImageOpacity.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations/ImageOpacity.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+make[2]: Nothing to be done for 'first'.
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+12:30:54 **** Clean-only build of configuration Device-Debug for project CustomControl ****
+make -j3 clean 
+rm -rf arm arm-p x86
+rm -f .//translations/*.qm
+12:30:54 **** Incremental Build of configuration Simulator-Debug for project BMICalculator ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate BMICalculator.pro
+Updating 'BMICalculator.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease BMICalculator.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations/BMICalculator.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make[2]: Nothing to be done for 'first'.
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/BMICalculator/x86'
+12:30:55 **** Build of configuration Device-Debug for project CustomControl ****
+make -j3 Device-Debug 
+make -C .//translations -f Makefile update
+cd arm && /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/qmake -spec blackberry-armv7le-qcc ../CustomControl.pro CONFIG+=debug_and_release CONFIG+=device
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate CustomControl.pro
+Updating 'CustomControl.ts'...
+    Found 1 source text(s) (0 new and 1 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease CustomControl.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations/CustomControl.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 1 untranslated source text(s)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C ./arm -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/applicationui.hpp -o o.le-v7-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntoarmv7le -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -x c++-header -c ../precompiled.h -o o.le-v7-g/.obj/CustomControl.gch/c++
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/main.o ../src/main.cpp
+qcc -Vgcc_ntoarmv7le -c -Wc,-include -Wc,o.le-v7-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -mcpu=cortex-a9 -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-armv7le-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io.le-v7-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o.le-v7-g/.obj/moc_applicationui.o o.le-v7-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntoarmv7le -lang-c++ -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/usr/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/usr/lib/qt4/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/usr/lib/qt4/lib -o o.le-v7-g/CustomControl o.le-v7-g/.obj/applicationui.o o.le-v7-g/.obj/main.o o.le-v7-g/.obj/moc_applicationui.o    -L/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/usr/lib/bb1 -L/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/usr/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/armle-v7/usr/lib/qt4/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6//usr/lib/qt4/lib -lbbcascades -lQtDeclarative -lQtScript -lQtSvg -lQtSql -lsqlite3 -lz -lQtXmlPatterns -lQtGui -lQtNetwork -lsocket -lQtCore -lm -lbps 
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/arm'
+12:31:00 **** Incremental Build of configuration Simulator-Debug for project HelloWorld ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate HelloWorld.pro
+Updating 'HelloWorld.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease HelloWorld.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations/HelloWorld.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+make[2]: Nothing to be done for 'first'.
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/HelloWorld/x86'
+12:31:00 **** Incremental Build of configuration Simulator-Debug for project ImageOpacity ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate ImageOpacity.pro
+Updating 'ImageOpacity.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease ImageOpacity.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations/ImageOpacity.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+make[2]: Nothing to be done for 'first'.
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/ImageOpacity/x86'
+12:36:28 **** Incremental Build of configuration Simulator-Debug for project CustomControl ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+cd x86 && /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/qmake -spec blackberry-x86-qcc ../CustomControl.pro  CONFIG+=debug_and_release CONFIG+=simulator
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate CustomControl.pro
+Updating 'CustomControl.ts'...
+    Found 1 source text(s) (0 new and 1 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease CustomControl.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations/CustomControl.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+    Ignored 1 untranslated source text(s)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/CircularSlider.hpp -o o-g/.moc/moc_CircularSlider.cpp
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/moc -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -D__QNXNTO__ ../src/applicationui.hpp -o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -x c++-header -c ../precompiled.h -o o-g/.obj/CustomControl.gch/c++
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/CircularSlider.o ../src/CircularSlider.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/main.o ../src/main.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/moc_CircularSlider.o o-g/.moc/moc_CircularSlider.cpp
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/moc_applicationui.o o-g/.moc/moc_applicationui.cpp
+qcc -Vgcc_ntox86 -lang-c++ -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -o o-g/CustomControl o-g/.obj/CircularSlider.o o-g/.obj/applicationui.o o-g/.obj/main.o o-g/.obj/moc_CircularSlider.o o-g/.obj/moc_applicationui.o    -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/bb1 -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6//usr/lib/qt4/lib -lbbcascades -lQtDeclarative -lQtScript -lQtSvg -lQtSql -lsqlite3 -lz -lQtXmlPatterns -lQtGui -lQtNetwork -lsocket -lQtCore -lm -lbps 
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+12:41:35 **** Incremental Build of configuration Simulator-Debug for project CustomControl ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate CustomControl.pro
+Updating 'CustomControl.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+    Kept 1 obsolete entries
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease CustomControl.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations/CustomControl.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/applicationui.o ../src/applicationui.cpp
+../src/applicationui.cpp: In constructor 'ApplicationUI::ApplicationUI()':
+../src/applicationui.cpp:43:21: error: 'CircularSlider' was not declared in this scope
+../src/applicationui.cpp:43:73: error: no matching function for call to 'qmlRegisterType(const char [11], int, int, const char [15])'
+../src/applicationui.cpp:43:73: note: candidates are:
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative/qdeclarative.h:90:5: note: template<class T> int qmlRegisterType()
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative/qdeclarative.h:160:5: note: template<class T> int qmlRegisterType(const char*, int, int, const char*)
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative/qdeclarative.h:194:5: note: template<class T, int metaObjectRevision> int qmlRegisterType(const char*, int, int, const char*)
+Makefile.Debug:183: recipe for target 'o-g/.obj/applicationui.o' failed
+cc: /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/lib/gcc/i486-pc-nto-qnx8.0.0/4.6.3/cc1plus error 1
+make[2]: *** [o-g/.obj/applicationui.o] Error 1
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+make[1]: *** [debug] Error 2
+make: *** [Simulator-Debug] Error 2
+Makefile:50: recipe for target 'debug' failed
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+mk/cs-base.mk:37: recipe for target 'Simulator-Debug' failed
+12:42:22 **** Incremental Build of configuration Simulator-Debug for project CustomControl ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate CustomControl.pro
+Updating 'CustomControl.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease CustomControl.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations/CustomControl.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/applicationui.o ../src/applicationui.cpp
+../src/applicationui.cpp: In constructor 'ApplicationUI::ApplicationUI()':
+../src/applicationui.cpp:43:21: error: 'CircularSlider' was not declared in this scope
+../src/applicationui.cpp:43:73: error: no matching function for call to 'qmlRegisterType(const char [11], int, int, const char [15])'
+../src/applicationui.cpp:43:73: note: candidates are:
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative/qdeclarative.h:90:5: note: template<class T> int qmlRegisterType()
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative/qdeclarative.h:160:5: note: template<class T> int qmlRegisterType(const char*, int, int, const char*)
+/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative/qdeclarative.h:194:5: note: template<class T, int metaObjectRevision> int qmlRegisterType(const char*, int, int, const char*)
+cc: /Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/lib/gcc/i486-pc-nto-qnx8.0.0/4.6.3/cc1plus error 1
+make[2]: *** [o-g/.obj/applicationui.o] Error 1
+Makefile.Debug:183: recipe for target 'o-g/.obj/applicationui.o' failed
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+make[1]: *** [debug] Error 2
+make: *** [Simulator-Debug] Error 2
+Makefile:50: recipe for target 'debug' failed
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+mk/cs-base.mk:37: recipe for target 'Simulator-Debug' failed
+12:44:51 **** Incremental Build of configuration Simulator-Debug for project CustomControl ****
+make -j3 Simulator-Debug 
+make -C .//translations -f Makefile update
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lupdate CustomControl.pro
+Updating 'CustomControl.ts'...
+    Found 0 source text(s) (0 new and 0 already existing)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C .//translations -f Makefile release
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+/Applications/Momentics.app/host_10_3_1_12/darwin/x86/usr/bin/lrelease CustomControl.pro
+Updating '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations/CustomControl.qm'...
+    Generated 0 translation(s) (0 finished and 0 unfinished)
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/translations'
+make -C ./x86 -f Makefile debug
+make[1]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+make -f Makefile.Debug
+make[2]: Entering directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+qcc -Vgcc_ntox86 -c -Wc,-include -Wc,o-g/.obj/CustomControl -Wno-psabi -lang-c++ -fstack-protector -fstack-protector-all -g -Wno-psabi -Wall -W -D_REENTRANT -DQT_NO_IMPORT_QT47_QML -DQ_OS_BLACKBERRY -DQT_DECLARATIVE_DEBUG -DQT_DECLARATIVE_LIB -DQT_CORE_LIB -DQT_SHARED -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/share/qt4/mkspecs/blackberry-x86-qcc -I../../CustomControl -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtCore -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4/QtDeclarative -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/qt4 -Io-g/.moc -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/bb1 -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include -I/Applications/Momentics.app/target_10_3_1_995/qnx6/usr/include/freetype2 -I. -o o-g/.obj/applicationui.o ../src/applicationui.cpp
+qcc -Vgcc_ntox86 -lang-c++ -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -Wl,-rpath-link,/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -o o-g/CustomControl o-g/.obj/CircularSlider.o o-g/.obj/applicationui.o o-g/.obj/main.o o-g/.obj/moc_CircularSlider.o o-g/.obj/moc_applicationui.o    -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/bb1 -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6/x86/usr/lib/qt4/lib -L/Applications/Momentics.app/target_10_3_1_995/qnx6//usr/lib/qt4/lib -lbbcascades -lQtDeclarative -lQtScript -lQtSvg -lQtSql -lsqlite3 -lz -lQtXmlPatterns -lQtGui -lQtNetwork -lsocket -lQtCore -lm -lbps 
+make[2]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'
+make[1]: Leaving directory '/Users/Arthur/Dropbox/App/qt/Blackberry/blackberry-10-native/CustomControl/x86'

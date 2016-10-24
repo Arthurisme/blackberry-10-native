@@ -1,0 +1,72 @@
+/*
+ * CircularSlider.cpp
+ *
+ *  Created on: Oct 24, 2016
+ *      Author: Arthur
+ */
+
+#include "CircularSlider.h"
+
+#include <bb/cascades/AbsoluteLayout>
+#include <bb/cascades/Container>
+#include <bb/cascades/DockLayout>
+#include <bb/cascades/ImageView>
+#include <bb/cascades/TouchEvent>
+
+#define PI 3.141592653589793
+
+using namespace bb::cascades;
+
+
+CircularSlider::CircularSlider(Container *parent)
+    :CustomControl(parent)
+    ,m_revAngle(0)
+    ,m_angle(0)
+    ,m_value(0)
+{
+    // TODO Auto-generated constructor stub
+
+    //Create a root container with an AbsoluteLayout.
+    m_rootContainer = new Container();
+    m_rootContainer->setLayout(new AbsoluteLayout());
+
+    //Create the slider track image.
+    m_trackImage = ImageView::create()
+            .image(QUrl("asset:///images/slider_track.png"));
+
+
+    //Create the handle container and two images, one for
+    //active state and one for inactive.
+    m_handleContainer = Container::create().
+            layout(new DockLayout());
+
+    //Disable implicit animation for the handle container so that
+    //the handle doesn't jump when it's being dragged.
+    m_handleImplicitAnimationController =
+            ImplicitAnimationController::create(m_handleContainer)
+                 .enabled(false);
+
+    //Load the handle images
+    m_handleOn = Image(QUrl("asset:///images/handle_pressed.png"));
+    m_handleOff = Image(QUrl("asset:///images/handle_inactive.png"));
+
+    //Create theh image view for the handle using the image for
+    //the inactive handle
+    m_handle = ImageView::create()
+        .image(m_handeOff)
+        .horizontal(HorizontalAlignment::Right)
+        .vertical(VerticalAlignment::Center);
+
+    //Add the handle image to the handle container
+    //Add everything to the root container
+    m_handleContainer->
+
+
+
+}
+
+CircularSlider::~CircularSlider()
+{
+    // TODO Auto-generated destructor stub
+}
+

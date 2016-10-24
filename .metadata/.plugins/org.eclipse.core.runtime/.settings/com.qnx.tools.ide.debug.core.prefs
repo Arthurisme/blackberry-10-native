@@ -1,8 +1,10 @@
 com.qnx.tools.ide.debug.core.launchConfigs/BMICalculator/com.qnx.tools.ide.debug.core.activeMode=debug
 com.qnx.tools.ide.debug.core.launchConfigs/BMICalculator/com.qnx.tools.ide.debug.core.activeTarget=sim_10_3_1_995
+com.qnx.tools.ide.debug.core.launchConfigs/CustomControl/com.qnx.tools.ide.debug.core.activeMode=debug
+com.qnx.tools.ide.debug.core.launchConfigs/CustomControl/com.qnx.tools.ide.debug.core.activeTarget=sim_10_3_1_995
 com.qnx.tools.ide.debug.core.launchConfigs/HelloWorld/com.qnx.tools.ide.debug.core.activeMode=run
 com.qnx.tools.ide.debug.core.launchConfigs/HelloWorld/com.qnx.tools.ide.debug.core.activeTarget=sim_10_3_1_995
 com.qnx.tools.ide.debug.core.launchConfigs/ImageOpacity/com.qnx.tools.ide.debug.core.activeMode=run
 com.qnx.tools.ide.debug.core.launchConfigs/ImageOpacity/com.qnx.tools.ide.debug.core.activeTarget=sim_10_3_1_995
-com.qnx.tools.ide.debug.core.toolBar.activeConfig=BMICalculator
+com.qnx.tools.ide.debug.core.toolBar.activeConfig=CustomControl
 eclipse.preferences.version=1
